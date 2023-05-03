@@ -35,5 +35,8 @@ def analysis(name, data):
   print(f"Mean Squared Error: {mse}")
   
   # Show the plot
-  plt.show()
+  #plt.savefig('my_plot.png')
+  return plt.show(), mse
  # print("TODO", name)
+ 
+
