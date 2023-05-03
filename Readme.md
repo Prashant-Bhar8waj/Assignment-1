@@ -58,6 +58,14 @@ Exercise 2.2
 
 - However, if the plot deviates significantly from a linear relationship and/or the MSE is high, then Zipf's law may not be an accurate prediction of the data which is the case for "German" as we can see from the plots.
 
+Exercise 2.3
+ - Vocabulary: Each language has its own unique vocabulary, which means that certain words or concepts may not have a direct translation into another language. This can affect the accuracy of machine translation and other NLP tasks that rely on understanding the meaning of words.
+ - Grammar: The grammatical rules and structure of each language can vary greatly, which can affect the way sentences are constructed and the meaning of words within them. This can make it challenging to develop algorithms that accurately analyze or generate text in multiple languages.
+ - Word order: The order in which words are arranged within sentences can vary between languages. For example, in English, the standard word order is subject-verb-object (SVO), while in Japanese it is subject-object-verb (SOV). This can affect the way in which machine translation systems and other NLP algorithms are designed.
+
+  Refrence [Wikipedia page on Word Order](https://en.wikipedia.org/wiki/Word_order).
+
+
 Exercise 2.4
 
 - The vertical gaps or "steps" in the plot for high-rank words (rightmost) are caused by the limited size of the dataset. As the rank increases, the frequency of the words decreases, and the number of words with that frequency also decreases. This leads to a smaller sample size for those words, which results in a higher level of noise and variance in the frequency estimates. This makes it harder to accurately estimate the true frequency of high-rank words, leading to the gaps in the plot.
