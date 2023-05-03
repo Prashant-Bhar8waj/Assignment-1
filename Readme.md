@@ -18,7 +18,7 @@ Email 2: masi00009@stud.uni-saarland.de<br/>
 ```bash
 git clone https://github.com/Prashant-Bhar8waj/Assignment-1.git
 ```
-4. Open the terminal and run the following commands to install the dependincies 
+4. Open the terminal and run the following commands to install the dependencies 
 ```bash
 pip install -r requirements.txt
 
