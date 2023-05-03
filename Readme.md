@@ -10,9 +10,9 @@ Name 2: Manisha Singh <br />
 Student id 2: 7029101 <br />
 Email 2: masi00009@stud.uni-saarland.de<br/> 
 
-1. [This is code for the Analysis Function which is](./exercise_2.py)
+1. [This is code for the Analysis Function](./exercise_2.py)
 
-2. [This is the modified code for showing the plot of the English, German, "austen-persuasion" (I could not find the `PIRATES OF THE CARRIBEAN: DEAD MAN'S CHEST` in the nltk corpus)](./Assignment1.py)
+2. [This is the modified code for showing the plot of the English, German, "austen-persuasion" and Python (I could not find the `PIRATES OF THE CARRIBEAN: DEAD MAN'S CHEST` in the nltk corpus So I used "austen-persuasion")](./Assignment1.py)
 
 3. For running the project just clone this link using 
 ```bash
