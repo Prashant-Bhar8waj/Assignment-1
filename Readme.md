@@ -70,3 +70,21 @@ Exercise 2.4
 
 - The vertical gaps or "steps" in the plot for high-rank words (rightmost) are caused by the limited size of the dataset. As the rank increases, the frequency of the words decreases, and the number of words with that frequency also decreases. This leads to a smaller sample size for those words, which results in a higher level of noise and variance in the frequency estimates. This makes it harder to accurately estimate the true frequency of high-rank words, leading to the gaps in the plot.
 
+
+[For Bonus](./Bonus.py) 
+```python
+from exercise_2 import analysis
+import matplotlib.pyplot as plt
+
+# Experiment 1: Don't lowercase anything
+with open("data/macbeth_en.txt", "r") as f:
+    p, m = analysis("English", f.read().split())
+    plt.savefig('my_plot5.png')
+
+# Experiment 2: Use character level tokenization, rather than word level
+with open("data/macbeth_en.txt", "r") as f:
+    data = f.read()
+    tokens = [c for c in data if c != ' ' and c != '\n']
+    p, m = analysis("English", tokens)
+    plt.savefig('my_plot6.png')
+````
