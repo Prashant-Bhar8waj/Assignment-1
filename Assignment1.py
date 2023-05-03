@@ -27,7 +27,7 @@ nltk.download('gutenberg', download_dir='.')
 with open("./corpora/gutenberg/austen-persuasion.txt", "r") as f:
     p,m = analysis("austen-persuasion", f.read().lower().split())
     plt.savefig('my_plot3.png')
-
+    
 
 #Run on Transformer's trainer module's source code
 with open("data/trainer.py", "r") as f:
